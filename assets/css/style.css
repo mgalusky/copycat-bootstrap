@@ -70,12 +70,12 @@ div[class*="col-"]{
   float:left;
   box-sizing:border-box;
 }
-.col-quarter{
+/*.col-quarter{
   width:25%;
 }
 .col-half{
   width:50%;
-}
+}*/
 .col-three-quarters{
   width:75%;
 }
