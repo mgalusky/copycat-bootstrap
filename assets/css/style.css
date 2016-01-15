@@ -39,7 +39,7 @@ body{
 /* HEADER */
 
 header{
-  padding:10px 75px;
+  padding:10px 0px;
   overflow:auto;
   height:75px;
   line-height:75px;
@@ -63,8 +63,8 @@ header nav{
 /* MAIN */
 
 main{
-  overflow:auto;
-  padding:40px 75px;
+  /*overflow:auto;*/
+  padding:40px 0px;
 }
 div[class*="col-"]{
   float:left;
@@ -83,7 +83,7 @@ div[class*="col-"]{
 /* PROFILE */
 
 .profile{
-  padding:25px 25px 25px 0;
+  /*padding:25px 25px 25px 0;*/
   text-align:center;
 }
 .profile .image img{
@@ -101,7 +101,7 @@ div[class*="col-"]{
 /* CONTENT */
 
 .content{
-  padding:25px;
+  /*padding:25px;*/
 }
 .content .stats{
   padding:20px;
@@ -133,7 +133,7 @@ div[class*="col-"]{
 /* SUGGESTIONS */
 
 .suggestions{
-  padding:25px 0 25px 25px;
+  /*padding:25px 0 25px 25px;*/
 }
 .suggestions .list{
   padding:0 25px 25px 25px;
@@ -168,4 +168,19 @@ footer nav li a{
 }
 footer nav li a:hover{
   opacity:0.8;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+  .profile .bio{
+    margin-top:0;
+  }
+  .tweets .tweet .btn{
+    display:none;
+  }
+  .margin-top{
+    margin-top:25px;
+  }
+
 }
